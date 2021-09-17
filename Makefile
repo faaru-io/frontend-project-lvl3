@@ -33,6 +33,6 @@ develop:
 	NODE_ENV=development npx webpack
 
 webpack:
-	npx webpack --config webpack.config.js
+	npx webpack --config webpack.config.cjs
 
 .PHONY: test
